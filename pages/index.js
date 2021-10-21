@@ -27,7 +27,7 @@ export default function Home() {
             <h2>Plots &rarr;</h2>
             <p>Placeholder plot page! We can decide how we want to interact soon.</p>
           </a>
-	  <\Link>
+	  </Link>
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
