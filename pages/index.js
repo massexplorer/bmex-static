@@ -21,7 +21,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://bmex.dev/plots" className={styles.card}>
+          <a href="/plots" className={styles.card}>
             <h2>Plots &rarr;</h2>
             <p>Placeholder plot page! We can decide how we want to interact soon.</p>
           </a>
