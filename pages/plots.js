@@ -4,6 +4,12 @@ import styles from '../styles/Home.module.css'
 
 export default function Plots() {
   return (
+	<iframe src="https://bmex.azurewebsites.net" width="100%" title="BMEX App"></iframe>
+  )
+}
+'''
+export default function Plots() {
+  return (
     <div className={styles.container}>
       <Head>
         <title>Bayesian Mass Explorer</title>
@@ -20,7 +26,7 @@ export default function Plots() {
           Explore masses in the Bayesian way!  
         </p>
 
-	<iframe src="https://bmex.azurewebsites.net" title="BMEX App"></iframe>
+	<iframe src="https://bmex.azurewebsites.net" width="100%" title="BMEX App"></iframe>
       </main>
 
       <footer className={styles.footer}>
@@ -28,4 +34,4 @@ export default function Plots() {
     </div>
   )
 }
-
+'''
