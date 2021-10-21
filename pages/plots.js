@@ -23,6 +23,6 @@ export default function Plots() {
     });
   }, []);
   return (
-	<iframe src="https://bmex.azurewebsites.net" width="100%" title="BMEX App"></iframe>
+	<iframe src="https://bmex.azurewebsites.net" height="100%" width="100%" title="BMEX App"></iframe>
   )
 }
