@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -21,11 +22,12 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/plots" className={styles.card}>
+          <Link href="/plots" className={styles.card}>
+	  <a>
             <h2>Plots &rarr;</h2>
             <p>Placeholder plot page! We can decide how we want to interact soon.</p>
           </a>
-
+	  <\Link>
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
