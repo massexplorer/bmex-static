@@ -49,9 +49,6 @@ export default function Home() {
             </p>
           </a>
         </div>
-	<div>
-	  <iframe src="https://bmex.azurewebsites.net" title="BMEX App"></iframe>
-	</div>
       </main>
 
       <footer className={styles.footer}>
