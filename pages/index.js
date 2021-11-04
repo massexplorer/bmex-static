@@ -24,10 +24,16 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
+	  <Link href="/data">
+          <a className={styles.card}>
+            <h2>Masses &rarr;</h2>
+            <p>Binding energies and related quantities for experiment and various models.</p>
+          </a>
+          </Link>
           <Link href="/plots" className={styles.card}>
-	  <a>
+	  <a className={styles.card}>
             <h2>Plots &rarr;</h2>
-            <p>Placeholder plot page! We can decide how we want to interact soon.</p>
+            <p>Placeholder plot page! This will have plots for isotopic/isotonic chains (and more!).</p>
           </a>
 	  </Link>
         </div>
