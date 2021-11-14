@@ -30,10 +30,10 @@ export default function Home() {
             <p>Binding energies and related quantities for experiment and various models.</p>
           </a>
           </Link>
-          <Link href="/plots" className={styles.card}>
+          <Link href="/gpe" className={styles.card}>
 	  <a className={styles.card}>
-            <h2>Plots &rarr;</h2>
-            <p>Placeholder plot page! This will have plots for isotopic/isotonic chains (and more!).</p>
+            <h2>Gaussian Process &rarr;</h2>
+            <p>Simple Gaussian Process explorer for nuclear models.</p>
           </a>
 	  </Link>
         </div>
