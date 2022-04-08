@@ -36,6 +36,12 @@ export default function Home() {
             <p>Simple Gaussian Process explorer for nuclear models.</p>
           </a>
 	  </Link>
+          <Link href="/pesnet" className={styles.card}>
+	  <a className={styles.card}>
+            <h2>PESnet &rarr;</h2>
+            <p>Dynamically produce nuclear potential energy surfaces using machine learning.</p>
+          </a>
+	  </Link>
         </div>
       </main>
 
