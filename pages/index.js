@@ -46,7 +46,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://github.com/kylegodbey/bmex-static">&copy; 2021 BMEX Team</a>
+        <a href="https://github.com/kylegodbey/bmex-static">&copy; 2022 BMEX Team</a>
       </footer>
     </div>
   )
