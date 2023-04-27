@@ -49,7 +49,7 @@ export default function Home() {
           </a>
 	  </Link>
 	  <Link href="https://beta.bmex.dev/masses">
-          <a className={styles.card>
+          <a className={styles.card}>
             <h2>Masses and Filters Beta &rarr;</h2>
             <p>Binding energies and related quantities for experiment and various models, including additonal beta features.</p>
           </a>
