@@ -48,8 +48,7 @@ export default function Home() {
             <p>Dynamically produce nuclear potential energy surfaces using machine learning.</p>
           </a>
 	  </Link>
-        <div className={styles.grid}>
-	  <Link href="https://bmex.dev/masses">
+	  <Link href="https://beta.bmex.dev/masses">
           <a className={styles.card>
             <h2>Masses and Filters Beta &rarr;</h2>
             <p>Binding energies and related quantities for experiment and various models, including additonal beta features.</p>
