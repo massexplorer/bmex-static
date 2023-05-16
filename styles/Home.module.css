@@ -1,16 +1,14 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  height: 100vh;
+  background: #f3dac5;
 }
 
 .main {
-  padding: 5rem 0;
-  flex: 1;
+  /* padding: 5rem 0; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,35 +64,44 @@
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 100%;
+  width: 50%;
+  margin: auto;
   margin-top: 3rem;
+  grid-gap: 20px;
+
 }
 
 .card {
-  margin: 1rem;
+  /* margin: 0.5rem; */
   padding: 1.5rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 1px solid #ff9741;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: darkblue;
+  border-color: darkblue;
 }
 
 .card h2 {
@@ -113,9 +120,80 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+.boxCustom{
+  width: 50%;
+  margin-top: 15px;
+
+
+}
+
+
+@media (max-width: 768px) {
+  /* Adjust margins for smaller screens */
+  .main {
+    margin-top: 40px;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
   .grid {
-    width: 100%;
-    flex-direction: column;
+    grid-template-columns: auto;
+    width: 95%;
+  }
+
+  .boxCustom {
+    width: 95%;
+  }
+
+  .image {
+    width: 95%;
+    height: 95%;
+    padding-left: 14px;
   }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust margins for medium-sized screens */
+  .main {
+    margin-top: 40px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .image {
+    width: 95%;
+    height: 95%;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* Adjust margins for larger screens */
+  .main {
+    margin-top: 5px;
+  }
+
+  .title {
+    margin-bottom: 30px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.header {
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+
