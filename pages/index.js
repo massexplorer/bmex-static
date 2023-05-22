@@ -54,6 +54,12 @@ export default function Home() {
             <p>Binding energies and related quantities for experiment and various models, including additonal beta features.</p>
           </a>
           </Link>
+	  <Link href="https://is.gd/UdaqRX">
+          <a className={styles.card}>
+            <h2>Bandcamp Challenge 1 &rarr;</h2>
+            <p>Starter BMEX view for the ISNET-9 Bandcamp challenge</p>
+          </a>
+          </Link>
         </div>
       </main>
 
