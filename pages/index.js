@@ -24,7 +24,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-	  <Link href="/data">
+	  <Link href="/beta">
           <a className={styles.card}>
             <h2>Masses and Filters &rarr;</h2>
             <p>Binding energies and related quantities for experiment and various models.</p>
@@ -48,6 +48,7 @@ export default function Home() {
             <p>Dynamically produce nuclear potential energy surfaces using machine learning.</p>
           </a>
 	  </Link>
+/*
 	  <Link href="/beta">
           <a className={styles.card}>
             <h2>Masses and Filters Beta &rarr;</h2>
@@ -60,6 +61,7 @@ export default function Home() {
             <p>Starter BMEX view for the ISNET-9 Bandcamp challenge</p>
           </a>
           </Link>
+*/
         </div>
       </main>
 
