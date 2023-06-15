@@ -30,6 +30,7 @@ export default function Home() {
             <p>Binding energies and related quantities for experiment and various models.</p>
           </a>
           </Link>
+{/*
 	  <Link href="/emulator">
           <a className={styles.card}>
             <h2>Emulators &rarr;</h2>
@@ -48,7 +49,7 @@ export default function Home() {
             <p>Dynamically produce nuclear potential energy surfaces using machine learning.</p>
           </a>
 	  </Link>
-{/*
+
 	  <Link href="/beta">
           <a className={styles.card}>
             <h2>Masses and Filters Beta &rarr;</h2>
