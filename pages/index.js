@@ -24,18 +24,19 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-	  <Link href="/beta">
+	  <Link href="/masses">
           <a className={styles.card}>
             <h2>Masses and Filters &rarr;</h2>
             <p>Binding energies and related quantities for experiment and various models.</p>
           </a>
           </Link>
+{/*
 	  <Link href="/emulator">
           <a className={styles.card}>
             <h2>Emulators &rarr;</h2>
             <p>Binding energies and charge radii using a reduced basis method emulator.</p>
           </a>
-{/*
+
           </Link>
           <Link href="/gpe" className={styles.card}>
 	  <a className={styles.card}>
